@@ -1,23 +1,21 @@
-<div class="container">
-  <h1 class="text-quaternary text-center my-5 animate__animated animate__fadeInUp fw-bold">Bienvenido</h1>
-  <div class="card animate__animated animate__fadeInUp w-100">
-    <div class="row g-0">
-      <div class="col-md-4">
-        <img src="../../../assets/logo.png" class="img-fluid rounded-start" alt="...">
-      </div>
-      <div class="col-md-8 text-primary">
-        <div class="card-body">
-          <h3 class="card-title fw-bold">TITULO</h3>
-          <hr>
-          <p class="card-text">Nota previa</p>
-          <button class="btn btn-primary">Botón enlace</button>
+<h1 class="text-center my-5">Bienvenido</h1>
+
+<div *ngFor="let articulo of Articulos">
+  <div class="container animate__animated animate__slideInUp">
+    <div class="card  w-100 my-4">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="../../../assets/logo.png" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8 text-primary">
+          <div class="card-body">
+            <h3 class="card-title">{{articulo.titulo}}</h3>
+            <hr>
+            <p class="card-text text-justify">{{articulo.resumen}}</p>
+            <button class="btn btn-primary">Leer más</button>
+          </div>
         </div>
       </div>
     </div>
-  </div>   
-</div>
-   
-<!-- <section>
-  <div id="posts">
   </div>
-</section> -->
+</div>
