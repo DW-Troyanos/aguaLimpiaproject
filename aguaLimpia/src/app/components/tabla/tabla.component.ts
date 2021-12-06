@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import listaSuscriptores from '../../../assets/json/suscriptores.json';
 
 @Component({
   selector: 'app-tabla',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tabla.component.css']
 })
 export class TablaComponent implements OnInit {
+  Suscriptores: any = listaSuscriptores;
 
   constructor() { }
 

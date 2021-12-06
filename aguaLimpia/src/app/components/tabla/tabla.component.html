@@ -1,40 +1,29 @@
-<div class="container animate__animated animate__slideInUp">
+<div>
+  <div class="container animate__animated animate__slideInUp">
     <h1 class="text-quaternary text-center my-5 fw-bold">Nuestros Suscriptores</h1>
     <div class="card">
         <div class="mx-5 my-4">
-            <table class="table table-striped table-hover">
+            <table class="table table-striped table-hover text-center">
                 <thead>
                   <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
-                    <th scope="col">Last</th>
+                    <th scope="col">Nombre(s)</th>
+                    <th scope="col">Apellidos</th>
+                    <th scope="col">Fecha Nacimiento</th>
+                    <th scope="col">Fecha Suscripción</th>
+                    <th scope="col">País de Origen</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr class="text-primary">
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                    <td>@mdo</td>
-                  </tr>
-                  <tr class="text-primary">
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
-                    <td>@mdo</td>
-                  </tr>
-                  <tr class="text-primary">
-                    <th scope="row">3</th>
-                    <td colspan="2">Larry the Bird</td>
-                    <td>@twitter</td>
-                    <td>@mdo</td>
+                  <tr class="text-primary" *ngFor="let suscriptor of Suscriptores">
+                    <th scope="row">{{suscriptor.nombres}}</th>
+                    <td>{{suscriptor.apellidos}}</td>
+                    <td>{{suscriptor.nacimiento}}</td>
+                    <td>{{suscriptor.suscripcion}}</td>
+                    <td>{{suscriptor.pais}}</td>
                   </tr>
                 </tbody>
               </table>
         </div>
     </div>
+</div>
 </div>

@@ -1,34 +1,51 @@
-[  
-      {
-        "titulo": "john 'Hannibal' Smith",
-        "ruta": "Estrategia",
-        "contenido": "Coronel",
-        "imagen": "john 'Hannibal' Smith",
-        "referencia": "Estrategia",
-        "resumen": "Coronel"
-      },
-      {
-        "titulo": "john 'Hannibal' Smith",
-        "ruta": "Estrategia",
-        "contenido": "Coronel",
-        "imagen": "john 'Hannibal' Smith",
-        "referencia": "Estrategia",
-        "resumen": "Coronel"
-      },
-      {
-        "titulo": "john 'Hannibal' Smith",
-        "ruta": "Estrategia",
-        "contenido": "Coronel",
-        "imagen": "john 'Hannibal' Smith",
-        "referencia": "Estrategia",
-        "resumen": "Coronel"
-      },
-      {
-        "titulo": "john 'Hannibal' Smith",
-        "ruta": "Estrategia",
-        "contenido": "Coronel",
-        "imagen": "john 'Hannibal' Smith",
-        "referencia": "Estrategia",
-        "resumen": "Coronel"
-      }  
-    ]
+[{
+    "titulo": "Agua limpia y saneamiento",
+    "ruta": "x",
+    "autor": "x",
+    "contenido": "x",
+    "imagenPre": "../../../assets/imgpre1.jpg",
+    "imagen": "x",
+    "referencia": "x",
+    "resumen": " Millones de personas en el mundo viven sin agua corriente y deben recorrer largas distancias para acceder a ella.  ¿Cuáles son las consecuencias? La ausencia de agua limpia provoca condiciones insalubres, y la muerte de más de 800 niños al día por enfermedades asociadas a la falta de higiene. Además, no tener acceso al agua aumenta la pobreza, recrudece el hambre y la desnutrición y amplía la brecha de género."
+  },
+  {
+    "titulo": "Consorcio de Aguas: agua limpia y de calidad para todo el mundo",
+    "ruta": "x",
+    "autor": "x",
+    "contenido": "x",
+    "imagenPre": "../../../assets/imgpre2.jpg",
+    "imagen": "x",
+    "referencia": "x",
+    "resumen": "En correspondencia con el cumplimiento de la Agenda 2030 y los 17 ODS, las comunidades que requieren de asesoramiento y acompañamiento en la ejecución de actuaciones que garanticen el acceso al agua y la dotación de sistemas de saneamiento para mejorar, en consecuencia, la salud y el bienestar de la población con mayores necesidades. "
+  },
+  {
+    "titulo": "Iniciativa privada lleva agua potable a La Cañada en Querétaro ",
+    "ruta": "x",
+    "autor": "x",
+    "contenido": "x",
+    "imagenPre": "../../../assets/imgpre3.jpg",
+    "imagen": "x",
+    "referencia": "x",
+    "resumen": "Se dio a conocer la implementación del sistema de filtración de agua, llamado Torre de Agua, suministra hasta mil litros de agua limpia por hora a la comunidad de La Cañada, en Cerro Prieto, Querétaro. Los patrocinadores ubicaron estaciones de lavado de manos e impartieron talleres de higiene a estudiantes de la comunidad. "
+  },
+  {
+    "titulo": "300.000 niños mueren al año por falta de agua limpia",
+    "ruta": "x",
+    "autor": "x",
+    "contenido": "x",
+    "imagenPre": "../../../assets/imgpre4.jpg",
+    "imagen": "x",
+    "referencia": "x",
+    "resumen": "La Organización Mundial de la Salud (OMS) establece en su reporte de 2020 que de las casi 1.2 millones de muertes infantiles a nivel global, al menos 300 mil correspondieron a menores de cinco años que fallecieron por diarrea, 10.000 de ellas en América Latina. "
+  },
+  {
+    "titulo": "Harpic celebra con aliados el Día del Retrete",
+    "ruta": "x",
+    "autor": "x",
+    "contenido": "x",
+    "imagenPre": "../../../assets/imgpre5.jpg",
+    "imagen": "x",
+    "referencia": "x",
+    "resumen": "El 19 de noviembre se celebró el Día Mundial del Retrete, también conocido como Día del Saneamiento, para concienciar acerca de la crisis mundial de saneamiento y fomentar medidas que ayuden a resolverla. Por ello, Harpic, Un Kilo de Ayuda, Rotoplas y Wazoku presentaron acciones a lo largo del año para sumarse a la conmemoración de este Día Mundial como parte de una campaña de sensibilización sobre la importancia del acceso sostenible al agua potable."
+  }
+]
