@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormularioComponent } from './formulario.component';
-
+import { FormsModule } from '@angular/forms';
+import { HttpClient } from '@angular/common/http';
 
 
 @NgModule({
@@ -9,7 +10,8 @@ import { FormularioComponent } from './formulario.component';
     FormularioComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule
   ]
 })
 export class FormularioModule { }

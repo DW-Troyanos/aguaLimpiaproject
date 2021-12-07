@@ -1,49 +1,53 @@
 <div class="container animate__animated animate__slideInUp">
     <h1 class="text-quaternary text-center my-5 fw-bold">Ponte en contacto con nosotros</h1>
-    <div class="card">
-        <div class="my-3">
-            <div class="row g-3 mx-3 my-2 align-items-center align-middle">
-                <div class="col-1">
-                    <label class="col-form-label">Nombre(s)</label>
+    <form #userlogin="ngForm" (ngSubmit)="Submit(userlogin)">
+        <div class="card">
+            <div class="my-3">
+                <div class="row g-3 mx-3 my-2 align-items-center align-middle">
+                    <div class="col-1">
+                        <label class="col-form-label">Nombre(s)</label>
+                    </div>
+                    <div class="col-4">
+                        <input class="form-control" type="text" name="name" ngModel required #name="ngModel">
+                    </div>
+                    <div class="col-2 text-end">
+                        <label class="col-form-label">Apellidos</label>
+                    </div>
+                    <div class="col-5">
+                        <input class="form-control" type="text" name="surname" ngModel required #surname="ngModel">
+                    </div>
                 </div>
-                <div class="col-4">
-                    <input class="form-control">
+                <div class="row g-3 mx-3 my-2 align-items-center align-middle">
+                    <div class="col-1">
+                        <label class="col-form-label">Teléfono</label>
+                    </div>
+                    <div class="col-11">
+                        <input class="form-control" type="number" name="number" ngModel required #phoneNumber="ngModel">
+                    </div>
                 </div>
-                <div class="col-2 text-end">
-                    <label class="col-form-label">Apellidos</label>
+                <div class="row g-3 mx-3 my-2 align-items-center align-middle">
+                    <div class="col-1">
+                        <label class="col-form-label">Correo</label>
+                    </div>
+                    <div class="col-11">
+                        <input class="form-control" type="email" name="email" ngModel required email #email="ngModel"
+                            data-validation="email">
+                    </div>
                 </div>
-                <div class="col-5">
-                    <input class="form-control">
-                </div>
-            </div>
-            <div class="row g-3 mx-3 my-2 align-items-center align-middle">
-                <div class="col-1">
-                    <label class="col-form-label">Teléfono</label>
-                </div>
-                <div class="col-11">
-                    <input class="form-control">
-                </div>
-            </div>
-            <div class="row g-3 mx-3 my-2 align-items-center align-middle">
-                <div class="col-1">
-                    <label class="col-form-label">Correo</label>
-                </div>
-                <div class="col-11">
-                    <input class="form-control">
-                </div>
-            </div>
-            <hr class="mx-3 my-4">
-            <div class="row g-3 mx-3 mb-2 align-items-center align-middle">
-                <div class="col-2 mt-0">
-                    <label class="col-form-label">Comentarios</label>
-                </div>
-                <div class="col-12 mt-0">
-                    <textarea class="form-control"></textarea>
+                <hr class="mx-3 my-4">
+                <div class="row g-3 mx-3 mb-2 align-items-center align-middle">
+                    <div class="col-2 mt-0">
+                        <label class="col-form-label">Comentarios</label>
+                    </div>
+                    <div class="col-12 mt-0">
+                        <textarea class="form-control" type="text" name="comments" ngModel required
+                            #comments="ngModel"></textarea>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="text-center my-3 animate__animated animate__slideInUp">
-        <button class="btn btn-secondary">Enviar</button>
-    </div>
+        <div class="text-center my-3 animate__animated animate__slideInUp">
+            <button class="btn btn-secondary" type="submit">Enviar</button>
+        </div>
+    </form>
 </div>

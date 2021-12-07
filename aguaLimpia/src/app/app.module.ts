@@ -13,6 +13,9 @@ import { A2Component } from './components/articulos/a2/a2.component';
 import { A3Component } from './components/articulos/a3/a3.component';
 import { A4Component } from './components/articulos/a4/a4.component';
 import { A5Component } from './components/articulos/a5/a5.component';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from "@angular/common/http";
+import { FormularioService } from './services/formulario.service';
 
 @NgModule({
   declarations: [
@@ -31,9 +34,11 @@ import { A5Component } from './components/articulos/a5/a5.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [FormularioService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
