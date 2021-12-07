@@ -30,15 +30,6 @@ a:hover{
   color: #3b6291;
 }
 
-/* .parallax {
-  background-image: url("./assets/bg2.jpg");
-  min-height: 500px;
-  background-attachment: fixed;
-  background-position: center;  
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
-
 #myVideo {
   position: fixed;
   right: 0;
@@ -62,6 +53,10 @@ a:hover{
 .col-12 img:hover {
   opacity: 1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.modal-lg{
+  max-width: 75rem !important;
 }
 
 .btn-primary {
@@ -193,3 +188,4 @@ a:hover{
   margin-bottom: 0.5rem;
   font-weight: bold;
 }
+
