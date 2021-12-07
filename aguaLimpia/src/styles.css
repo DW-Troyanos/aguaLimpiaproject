@@ -8,6 +8,28 @@ h1{
   font-weight: bold;
 }
 
+h2{
+  font-weight: bold;
+  font-size: 2.5rem !important;
+}
+
+h4{
+  font-size: 1rem !important;
+}
+
+hr {
+  border: 2px solid #4fba52 !important;
+  opacity: 50% !important;
+}
+
+a{
+  color: #3b6291;
+}
+
+a:hover{
+  color: #3b6291;
+}
+
 /* .parallax {
   background-image: url("./assets/bg2.jpg");
   min-height: 500px;
@@ -86,6 +108,15 @@ h1{
   border-color: #f9f9f9;
 }
 
+.btn-tertiary {
+  color: #7eb2dd;
+  font-size: 1rem;
+}
+
+.btn-tertiary:hover {
+  font-weight: bolder;
+  color: #3b6291;
+}
 
 .nav-link {
   display: block;

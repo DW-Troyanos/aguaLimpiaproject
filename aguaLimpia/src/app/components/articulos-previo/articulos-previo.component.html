@@ -1,22 +1,22 @@
 <div class="container animate__animated animate__slideInUp">
   <h1 class="text-center my-5 position-relative">Bienvenido</h1>
-<div *ngFor="let articulo of Articulos">
-  <div class="container">
-    <div class="card my-4 w-100">
-      <div class="row g-0" style="margin-right: .8rem;">
-        <div class="col-md-4">
-          <img src="{{articulo.imagenPre}}" class="img-fluid rounded" alt="...">
-        </div>
-        <div class="col-md-8 text-primary">
-          <div class="card-body">
-            <h3 class="card-title">{{articulo.titulo}}</h3>
-            <hr>
-            <p class="card-text text-justify">{{articulo.resumen}}</p>
-            <button class="btn btn-primary">Leer más</button>
+  <div *ngFor="let articulo of Articulos">
+    <div class="container">
+      <div class="card my-4 w-100">
+        <div class="row g-0" style="margin-right: .8rem;">
+          <div class="col-md-4">
+            <img src="{{articulo.imagenPre}}" class="img-fluid rounded" alt="...">
+          </div>
+          <div class="col-md-8 text-primary">
+            <div class="card-body">
+              <h3 class="card-title">{{articulo.titulo}}</h3>
+              <hr>
+              <p class="card-text text-justify">{{articulo.resumen}}</p>
+              <button class="btn btn-primary" routerLink="/{{articulo.ruta}}">Leer más</button>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 </div>

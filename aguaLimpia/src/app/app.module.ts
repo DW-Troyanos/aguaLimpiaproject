@@ -7,9 +7,12 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ArticulosPrevioComponent } from './components/articulos-previo/articulos-previo.component';
 import { GaleriaComponent } from './components/galeria/galeria.component';
 import { FormularioComponent } from './components/formulario/formulario.component';
-import { ArticulosComponent } from './components/articulos/articulos.component';
 import { TablaComponent } from './components/tabla/tabla.component';
-
+import { A1Component } from './components/articulos/a1/a1.component';
+import { A2Component } from './components/articulos/a2/a2.component';
+import { A3Component } from './components/articulos/a3/a3.component';
+import { A4Component } from './components/articulos/a4/a4.component';
+import { A5Component } from './components/articulos/a5/a5.component';
 
 @NgModule({
   declarations: [
@@ -19,8 +22,12 @@ import { TablaComponent } from './components/tabla/tabla.component';
     ArticulosPrevioComponent,
     GaleriaComponent,
     FormularioComponent,
-    ArticulosComponent,
-    TablaComponent
+    TablaComponent,
+    A1Component,
+    A2Component,
+    A3Component,
+    A4Component,
+    A5Component
   ],
   imports: [
     BrowserModule,

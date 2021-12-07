@@ -1,0 +1,20 @@
+<div class="container animate__animated animate__slideInUp" *ngFor="let articulo of Articulos">
+    <div class="card mt-4" *ngIf="(articulo.ruta == 'articulos/articulo1')">
+        <div>
+        </div>
+        <section class="my-4 mx-5 text-primary">
+            <a class="btn btn-tertiary" routerLink="inicio">< Regresar a Inicio</a>
+            <h2 class="text-center text-quinary">{{articulo.titulo}}</h2>
+            <h4 class="text-center text-secondary">Autor: {{articulo.autor}}</h4>
+            <div>
+                <hr class="my-4">
+            </div>
+            <img class="w-100" src="{{articulo.imagen}}">
+                <div class="fs-6 my-4">
+                    <p class="mt-2 text-justify">{{articulo.contenido}}
+                    </p>
+                </div>
+            <p><strong>Fuente: </strong><a href="{{articulo.referencia}}">click aquí</a></p>
+        </section>
+    </div>
+</div>
