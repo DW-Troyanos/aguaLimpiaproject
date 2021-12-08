@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
 import { NgForm } from '@angular/forms';
 import { HttpHeaders } from '@angular/common/http';
-import swal from 'sweetalert';
+import Swal from 'sweetalert2'
 
 @Injectable({
   providedIn: 'root'
@@ -22,10 +22,10 @@ export class FormularioService {
             console.log(response);
           }
         );
-        swal('Éxito','El correo se ha mandado correctamente','success');
+        Swal.fire('Éxito','El correo se ha mandado correctamente','success');
     }
     else{
-      swal('Ooops','Asegurate de haber llenado todos los campos correctamente','error');
+      Swal.fire('Ooops','Asegurate de haber llenado todos los campos correctamente','error');
     }
   }
 }
